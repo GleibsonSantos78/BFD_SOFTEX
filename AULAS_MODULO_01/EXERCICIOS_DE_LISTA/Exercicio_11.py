@@ -17,7 +17,7 @@ tabuleiro = [["[ ]" for linha in range(8)] for coluna in range(8)]
 
 pecas = ["tor", "cav", "bis", "rai", "rei", "bis", "cav", "tor"]
 
-tabuleiro[0] = [p for p in pecas] 
+tabuleiro[0] = [p for p in pecas]
 tabuleiro[1] = [ "pea" for linha in range(8)]
 
 
