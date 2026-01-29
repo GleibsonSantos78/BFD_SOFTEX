@@ -1,7 +1,7 @@
 # 1. Criamos os funcionários de forma independente
-f1 = Funcionario("Alice", "Desenvolvedora Senior")
-f2 = Funcionario("Bruno", "Analista de Dados")
-f3 = Funcionario("Carla", "Gerente de Projetos")
+f1 = Funcionario("Alice", "Desenvolvedora Senior") # type: ignore
+f2 = Funcionario("Bruno", "Analista de Dados") # type: ignore
+f3 = Funcionario("Carla", "Gerente de Projetos") # type: ignore
 
 # 2. Criamos o Departamento
 depto_ti = Departamento("Tecnologia da Informação")

@@ -1,7 +1,7 @@
 # 1. Criando os jogadores (objetos independentes)
-j1 = Jogador("Alisson", "Goleiro")
-j2 = Jogador("Marquinhos", "Zagueiro")
-j3 = Jogador("Vinícius Jr.", "Atacante")
+j1 = Jogador("Alisson", "Goleiro") # type: ignore
+j2 = Jogador("Marquinhos", "Zagueiro") # type: ignore
+j3 = Jogador("Vinícius Jr.", "Atacante") # type: ignore
 
 # 2. Criando o time
 meu_time = Time("Brasil FC")
